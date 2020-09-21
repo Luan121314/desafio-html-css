@@ -1,0 +1,86 @@
+ /* The Nivo Slider styles */
+ 
+ .nivoSlider {
+     position: relative;
+     width: 100%;
+     /* height:; */
+     overflow: hidden;
+     margin: 0;
+ }
+ 
+ .nivo-main-image {
+     display: block !important;
+     position: relative !important;
+     width: 100% !important;
+     display: none;
+ }
+ /* The slices and boxes in the Slider */
+ 
+ .nivo-slice {
+     display: block;
+     position: absolute;
+     z-index: 5;
+ }
+ 
+ .nivo-box {
+     display: block;
+     position: absolute;
+     z-index: 5;
+     overflow: hidden;
+ }
+ 
+ .nivo-box img {
+     display: block;
+ }
+ /* Caption styles */
+ 
+ .nivo-caption {
+     position: absolute;
+     left: 0px;
+     bottom: 0px;
+     background: #000;
+     color: #fff;
+     width: 100%;
+     z-index: 8;
+     padding: 5px 10px;
+     opacity: 0.8;
+     overflow: hidden;
+     display: none;
+     -moz-opacity: 0.8;
+     filter: alpha(opacity=8);
+     -webkit-box-sizing: border-box;
+     /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;
+     /* Firefox, other Gecko */
+     box-sizing: border-box;
+ }
+ /* Direction nav styles (e.g. Next & Prev) */
+ 
+ .nivo-directionNav {
+     display: none;
+ }
+ 
+ .nivo-prevNav {
+     left: 0px;
+ }
+ 
+ .nivo-nextNav {
+     right: 0px;
+ }
+ /* Control nav styles (e.g. 1,2,3...) */
+ 
+ .nivo-controlNav {
+     text-align: center;
+     padding: 15px 0;
+     top: 20;
+     display: none;
+ }
+ 
+ .nivo-controlNav a {
+     cursor: pointer;
+ }
+ 
+ .nivo-controlNav a.active {
+     font-weight: bold;
+     display: block;
+ }
